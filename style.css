@@ -1,0 +1,145 @@
+body
+{
+    background-color: black;  
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14pt;
+    color: red;
+}
+
+p{
+    color: white;
+}
+p::first-letter{
+    color: red;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.P1{
+    
+    
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-indent: 30px;
+    float: right;
+    text-align: justify;
+}
+
+#map{
+    margin-top: 20px;
+}
+
+#schools{
+    justify-content: space-around;
+}
+
+.school{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#schools div{
+    margin-top: 20px;
+    border: white 1px solid;
+}
+
+#qwerty{
+    border-bottom: white 1px solid;
+    width: 1890px;
+    height: 180px;
+}
+
+.wscbg{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.wscbg{
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+}
+
+.wscbg img{
+    padding: 5px;
+    
+    
+
+}
+
+.wscbg .text_sc{
+    display: flex;
+    padding: 10px;
+    flex-flow: column wrap;
+    border-left: 1px white solid;
+    
+}
+
+.T1{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a div{
+    padding: 20px;
+}
+
+nav a div:hover{
+    background-color: red;
+    color: black;
+}
+
+#qwerty1{
+    border-bottom: white 1px solid;
+    width: 1890px;
+    height: 150px;
+}
+
+.strelka{
+    position: fixed;
+    bottom: 10px;
+    right: 10px
+    ;
+}
+
+.L1{
+    width: 640px;
+    height: 351px;
+}
+
+@keyframes asdfg {
+    0%{width: 640px;}
+    50%{width: 540px; margin-left: 50px;
+    margin-top: 28px;}
+    100%{width: 640px;}
+}
+
+#logo{
+    animation: asdfg 2s infinite;
+}
+
+
